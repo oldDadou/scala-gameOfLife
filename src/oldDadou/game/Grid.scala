@@ -1,3 +1,5 @@
+package oldDadou.game
+
 import scala.io.Source
 
 class Grid {
