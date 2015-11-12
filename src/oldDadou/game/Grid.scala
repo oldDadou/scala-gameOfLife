@@ -2,7 +2,7 @@ package oldDadou.game
 
 import scala.io.Source
 
-class Grid {
+class Grid  {
   val dim = (20, 20) 
   var grid : Array[Array[Int]] = Array.ofDim[Int](dim._1, dim._2)
   

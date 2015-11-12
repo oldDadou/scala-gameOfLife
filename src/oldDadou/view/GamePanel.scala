@@ -27,7 +27,6 @@ class GamePanel(dimx : Int, dimy : Int, grid : Grid) extends Panel {
         var y1 = (row * dy).toInt
         var x2 = ((line + 1) * dx).toInt
         var y2 = ((row + 1) * dy).toInt        
-        g.getClipBounds
         g.fillRect(x1, y1, x2, y2)
       }
     }
